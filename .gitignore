@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.env.example
+venv/
+*.egg-info/
+
+# FAISS index (regenerated at runtime)
+faiss_index/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.example
+
+# OS
+.DS_Store
+Thumbs.db
